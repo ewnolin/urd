@@ -1,0 +1,25 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+buildSrc/.kotlin/
+
+# IDEs
+.idea/
+*.iml
+out/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets and local data — bookkeeping data never belongs in the repository
+.env
+*.pem
+*.key
+*.sie
+*.se
+data/
+archive/
