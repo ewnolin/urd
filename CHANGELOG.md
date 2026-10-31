@@ -9,3 +9,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - License, README, changelog, contributor instructions and ADRs 0001–0004 (#2)
+- Gradle multi-module build with `urd-core` and `urd-app`, ArchUnit rule keeping `urd-core` framework-free, health endpoint (#3)
