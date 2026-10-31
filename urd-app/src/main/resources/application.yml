@@ -1,6 +1,11 @@
 spring:
   application:
     name: urd
+  messages:
+    basename: messages
+    encoding: UTF-8
+    # Never fall back to the server's own locale; Swedish is the explicit default (LocaleConfig).
+    fallback-to-system-locale: false
 
 server:
   # Single-user application: listen on this machine only unless explicitly configured otherwise.

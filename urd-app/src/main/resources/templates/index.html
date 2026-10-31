@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:lang="${#locale.language}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title th:text="#{home.title} + ' · ' + #{app.name}">Urd</title>
+</head>
+<body>
+  <header>
+    <h1 th:text="#{app.name}">Urd</h1>
+    <p th:text="#{app.tagline}">Tagline</p>
+    <nav th:aria-label="#{language.label}">
+      <span th:text="#{language.label}">Language</span>:
+      <a href="?lang=sv" hreflang="sv" th:text="#{language.sv}">Svenska</a> |
+      <a href="?lang=en" hreflang="en" th:text="#{language.en}">English</a>
+    </nav>
+  </header>
+  <main>
+    <p th:text="#{home.welcome}">Welcome</p>
+  </main>
+</body>
+</html>
